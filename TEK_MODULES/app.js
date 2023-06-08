@@ -1,6 +1,6 @@
-import { add, subtract } from "./main.js";
-import greeting from "./main.js";
+import { add, subtract, greeting, name } from "./main.js";
 
 console.log(add(5, 7));
 console.log(subtract(5, 7));
 greeting("Theo");
+console.log(name);
